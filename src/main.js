@@ -14,7 +14,16 @@ function init() {
         trigger: target.querySelector('img'),
         start: 'top bottom-=300',
         end: 'top center',
-        toggleActions: 'play none none reverse'
+        toggleActions: 'play none none reverse',
+        // onUpdate: (self) => console.log(self.progress, self.direction, self.isActive, self.getVelocity())
+        // onToggle: (self) => console.log(self)
+        onEnter: (self) => console.log(self),
+        onEnter: (self) => console.log(self),
+        onEnterBack: (self) => console.log(self),
+        onLeaveBack: (self) => console.log(self),
+        // - 1 indicates you are going down
+
+
       }
     })
   })
