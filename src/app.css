@@ -72,7 +72,7 @@ h1 {
 }
 
 .bcg {
-    background: url('../img/img_background.jpg') no-repeat;
+    background: url('../src/img/img_background.jpg') no-repeat;
     background-size: cover;
     position: absolute;
     width: 100%;
@@ -112,4 +112,8 @@ h1 {
 
 .footer-container a {
     color: rgba(255, 255, 255, 0.5);
+}
+
+.active {
+    background-color: #e9f0f2;
 }
